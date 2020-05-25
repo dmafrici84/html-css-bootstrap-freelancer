@@ -1,0 +1,76 @@
+/* impostazioni generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*=col-] {
+  border: solid 1px black;
+  background-color: rgba(232, 7, 7, 0.0);
+}
+
+.row {
+  height: 100%;
+}
+/* VERSIONE CELLULARE (phones, less than 768px) */
+
+/* blocco barra di navigazione (prima riga) */
+
+#prima {
+  height: 90px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+#prima [class*=col-] {
+  height: 90px;
+}
+
+/* blocco barra di navigazione (seconda riga) */
+
+#seconda {
+  padding-top: 90px;
+  background-color: #18bc9c;
+}
+
+#seconda [class*=col-] {
+  height: 300px;
+}
+
+/* blocco barra di navigazione (seconda riga) */
+
+#terza {
+  background-color: #fff;
+}
+
+#terza [class*=col-] {
+  height: 100px;
+  border radius: 8px;
+}
+
+#quarta {
+  background-color: #18bc9c;
+}
+
+#quarta [class*=col-] {
+  height: 100px;
+}
+/* VERSIONE TABLET (desktops, 992px and up)*/
+/* @media all and (min-width: 992px) { */
+
+  /* blocco barra di navigazione (prima riga) */
+
+
+
+
+ /* } */
+
+/* VERSIONE DESKTOP (large desktops, 1200px and up) */
+
+/* @media all and (min-width: 1200px) { */
+
+
+
+/* } */
