@@ -1,3 +1,5 @@
+/* VERSIONE CELLULARE (phones, less than 768px) */
+
 /* impostazioni generali */
 
 * {
@@ -6,55 +8,109 @@
   box-sizing: border-box;
 }
 
+
 [class*=col-] {
   border: solid 1px black;
-  background-color: rgba(232, 7, 7, 0.0);
 }
 
 .row {
   height: 100%;
 }
-/* VERSIONE CELLULARE (phones, less than 768px) */
 
 /* blocco barra di navigazione (prima riga) */
 
 #prima {
-  height: 90px;
   background-color: #2c3e50;
   color: #fff;
 }
 
-#prima [class*=col-] {
-  height: 90px;
+#prima .navbar {
+  height: 70px;
+}
+
+#prima .navbar-default {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+#prima .navbar-brand {
+  line-height: 45px;
+  color: #fff;
+  font-size: 30px;
+}
+
+#prima .navbar-nav > li > a {
+  line-height: 45px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#prima .navbar-nav > li > a:hover {
+  color: #18bc9c;
 }
 
 /* blocco parte principale (main)*/
 
-/* blocco titolo (seconda riga) */
+/* impostazioni generali main */
 
-
-
-
-
-
-#seconda {
-  padding-top: 90px;
-  background-color: #18bc9c;
+main section {
+  padding: 80px 0;
 }
 
-#seconda [class*=col-] {
-  height: 300px;
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.stellina {
+  height: 32px;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.stellina .row > .col-xs-5 {
+  height: 16px;
+  border-bottom: solid 4px #fff;
+}
+
+.stellina .fa-star {
+  font-size: 30px;
+}
+
+/* blocco titolo (seconda riga) */
+
+#seconda {
+  padding-top: 170px;
+  background-color: #18bc9c;
+  color: #fff;
+}
+
+#seconda .github {
+  width: 100%;
+  height: 250px;
+}
+
+#seconda .fa-star {
+  font-size: 30px;
 }
 
 /* blocco portfolio (terza riga)  */
 
 #terza {
   background-color: #fff;
+  color: #2c3e50;
 }
 
-#terza [class*=col-] {
-  height: 100px;
-  border radius: 8px;
+#terza .stellina .row > .col-xs-5 {
+  border-color: #2c3e50;
+}
+
+#terza .terza-img {
+  width: 100%;
+  padding: 5%;
 }
 
 /* blocco about (quarta riga)  */
@@ -63,8 +119,8 @@
   background-color: #18bc9c;
 }
 
-#quarta [class*=col-] {
-  height: 100px;
+#quarta P:first-child {
+  padding-left: 15%;
 }
 
 /* blocco contact me (quinta riga)  */
@@ -74,7 +130,19 @@
 }
 
 #quinta [class*=col-] {
-  height: 100px;
+  height: auto;
+}
+
+#quinta .form-group input,
+#quinta .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  box-shadow: none;
+}
+
+#quinta .btn {
+  background-color: #18bc9c;
+  color: #fff;
 }
 
 /* blocco parte finale (footer)  */
