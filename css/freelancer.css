@@ -44,6 +44,11 @@
   color: #18bc9c;
 }
 
+#prima .navbar-toggle {
+  top: 50%;
+  transform: translateY(50%);
+}
+
 /* blocco parte principale (main)*/
 
 /* impostazioni generali main */
