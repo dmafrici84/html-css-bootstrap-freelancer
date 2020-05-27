@@ -293,6 +293,45 @@ h3 {
   font-size: 12px;
 }
 
+/* MODAL */
+
+.modal {
+  color: #2c3e50;
+}
+
+.modal .close {
+  font-size: 40px;
+  color: #18bc9c;
+}
+
+.modal .stellina .row > .col-xs-3, .col-md-4 {
+  border-color: #2c3e50;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.modal-footer p {
+  font-size: 20px;
+}
+
+.modal-footer .btn {
+  width: 90px;
+  height: 40px;
+  background-color: rgba(24, 188, 156, 0.8);
+  color: #fff;
+  font-size: 18px;
+}
+
+.modal-footer .btn:hover {
+  background-color: #18bc9c;
+}
+
 /* VERSIONE SM */
 
 @media all and (min-width: 768px) {
