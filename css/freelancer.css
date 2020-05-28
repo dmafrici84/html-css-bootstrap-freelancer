@@ -351,6 +351,7 @@ h3 {
   }
 
 }
+
 /* VERSIONE MD *//* VERSIONE LG */
 
 @media all and (min-width: 992px) {
@@ -397,10 +398,6 @@ h3 {
 
   #seconda .github {
     max-height: 300px;
-  }
-
-  #seconda {
-    padding-top: 170px;
   }
 
   /* blocco about (quarta riga)  */
